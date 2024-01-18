@@ -1,0 +1,52 @@
+header{
+display: flex;
+flex-direction: row;
+color: white;
+background-color: #30475e;
+justify-content: space-around;
+padding: 20px 0;
+align-items: center;
+}
+header
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: poppins;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+header nav a{
+	color: white;
+	margin-right: 30px;
+	font-weight: 500;
+}
+body{
+	margin: 0px;
+}
+.footer{
+	left: 0px;
+	bottom: 0px;
+	background-color: #30475e;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	font-family: poppins;
+	font-weight: 500;
+	flex-direction: row;
+}
+img{
+	float: right;
+	display: flex;
+}
+h1{
+	color: maroon;
+	font-weight: 500;
+	font-style: italic;
+}
+button{
+	background: magenta;
+}
+input{
+	color: skyblue;
+}
